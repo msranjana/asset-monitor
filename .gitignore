@@ -1,0 +1,13 @@
+videos/
+*.mp4
+*.avi
+*.mov
+venv/
+.venv/
+__pycache__/
+*.pyc
+models/*.gz
+models/*.bin
+models/*.onnx
+models/*.pt
+models/*.pth

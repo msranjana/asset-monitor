@@ -1,0 +1,6 @@
+# Minimum versions, not exact pins, so pip can pick wheels that match your Python
+# version instead of trying to compile from source.
+opencv-python>=4.10
+numpy>=2.1
+python-dotenv>=1.0
+ultralytics>=8.3

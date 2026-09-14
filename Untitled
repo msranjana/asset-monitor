@@ -1,0 +1,19 @@
+# Camera stream
+RTSP_URL=rtsp://localhost:8554/live/video
+
+# Where the event engine writes its log lines
+LOG_FILE_PATH=logs/events.log
+
+# Seconds to wait before reconnecting to the camera after a read failure
+RECONNECT_DELAY=5
+
+# Detection models
+SMOKE_FIRE_MODEL_PATH=models/fire_smoke_yolov8n.pt
+
+# Alert engine (SMTP) - leave empty until the mail account is ready
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_USERNAME=
+SMTP_PASSWORD=
+ALERT_FROM_EMAIL=
+ALERT_TO_EMAILS=
